@@ -1,0 +1,48 @@
+body {
+  background-color: rgb(252, 251, 251);
+  /* Use a system font, if none are available use an available sans-sarif */
+  font-family: system-ui, sans-serif;
+  margin: 0;
+}
+
+.board {
+  display: flex;
+  flex-wrap: wrap;
+  width: 325px;
+  margin: 30px 50px;
+}
+
+.sqr {
+  width: 30%;
+  aspect-ratio: 1/1;
+  border: 3px solid black;
+  font-size: 80px;
+  text-align: center;
+}
+
+h1 {
+  margin: 0 0 0 110px;
+  font-family:cursive;
+  color: hotpink;
+}
+
+h2 {
+  margin: 10px 0 0 162px;
+}
+
+button {
+  height: 50px;
+  width: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 0 0 0 150px;
+  background-color: rgb(47, 255, 57);
+  border-color: rgb(47, 255, 57);
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+button.active {
+  transform: translate(4px);
+}
